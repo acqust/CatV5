@@ -26,6 +26,7 @@ local license = ({...})[1] or {}
 local developer = getgenv().catvapedev or license.Developer or false
 local closet = getgenv().closet or license.Closet or false
 
+getgenv().username = username or license.Username
 getgenv().catuser = getgenv().username
 
 local cloneref = cloneref or function(ref) return ref end
