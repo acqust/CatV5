@@ -259,7 +259,7 @@ local function wipeFolder(path)
 	end
 end 
 
-makestage(1, 'Downloading packages')
+makestage(1, 'Sub to Acqust!')
 
 if not closet and not isfile('catvapereset9') and isfolder('catrewrite') and isfolder('catrewrite/profiles') then
 	--pcall(delfile, 'catrewrite/‎profiles/2619619496.gui.txt‎')
